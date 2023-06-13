@@ -35,7 +35,7 @@ export default function Services() {
           </h3>
           <p className="text-center text-lg ">
             is simply dummy text of the printing and typesetting industry. Lorem
-            Ipsum has been the industry's
+            Ipsum has been the industry'ss
           </p>
         </div>
         <div
