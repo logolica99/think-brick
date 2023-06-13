@@ -1,3 +1,4 @@
+import Footer from "./components/Footer";
 import Hero from "./components/Hero";
 import Nav from "./components/Nav";
 import Services from "./components/Services";
@@ -37,16 +38,15 @@ export default function Home() {
           </clipPath>
         </defs>
       </svg>
-        <Nav />
+      <Nav />
       <div className="m-auto w-[90%] md:w-[80%]">
         <Hero />
       </div>
       <WhatWeDoSection />
       <div className="m-auto w-[90%] md:w-[80%]">
-        <Services/>
+        <Services />
       </div>
-
-
+      <Footer />
     </main>
   );
 }
