@@ -37,8 +37,8 @@ export default function Home() {
           </clipPath>
         </defs>
       </svg>
-      <div className="m-auto w-[90%] md:w-[80%]">
         <Nav />
+      <div className="m-auto w-[90%] md:w-[80%]">
         <Hero />
       </div>
       <WhatWeDoSection />
