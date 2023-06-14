@@ -33,7 +33,7 @@ export default function Footer() {
               />
             </svg>
 
-            <p>329 Queensberry Streets</p>
+            <p>329 Queensberry Street</p>
           </div>
           <div className=" text-sm  flex gap-2 items-center">
             <svg
