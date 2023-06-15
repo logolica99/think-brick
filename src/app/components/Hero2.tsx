@@ -8,7 +8,8 @@ export default function Hero2() {
           <img
             src="/assets/story.png"
             alt=""
-            className=" lg:min-w-[460px] relative ml-0 min-[1300px]:ml-[20px] min-[1300px]:mr-12 min-[1550px]:ml-[150px] min-[1550px]:mr-20 z-10"
+            className=" lg:min-w-[460px] relative ml-0 min-[1300px]:ml-[20px] min-[1300px]:mr-12 min-[1550px]:ml-[150px] min-[1550px]:mr-20 "
+            style={{ zIndex: 2 }}
           />
           <svg
             width="540"

@@ -4,7 +4,7 @@ import React from "react";
 export default function Menu({ open }: { open: boolean }) {
   return (
     <div
-      className={`fixed left-0 z-10  top-0 mt-[10vh] h-[100vh] w-full bg-white transition duration-150 ease-in-out ${
+      className={`fixed left-0 z-20   top-0 mt-[10vh] h-[100vh] w-full bg-white transition duration-150 ease-in-out ${
         open ? "translate-x-0" : "translate-x-full"
       }`}
     >
