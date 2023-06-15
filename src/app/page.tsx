@@ -1,7 +1,11 @@
+import CompanyCarousel from "./components/CompanyCarousel";
+import ContactForm from "./components/ContactForm";
 import Footer from "./components/Footer";
 import Hero from "./components/Hero";
+import Hero2 from "./components/Hero2";
 import Nav from "./components/Nav";
 import Services from "./components/Services";
+import TestimonialCarousel from "./components/TestimonialCarousel";
 import WhatWeDoSection from "./components/WhatWeDoSection";
 
 export default function Home() {
@@ -41,10 +45,16 @@ export default function Home() {
       <Nav />
       <div className="m-auto w-[90%] md:w-[80%]">
         <Hero />
+        <Hero2 />
       </div>
       <WhatWeDoSection />
       <div className="m-auto w-[90%] md:w-[80%]">
         <Services />
+      </div>
+      <TestimonialCarousel />
+      <div className="m-auto w-[90%] md:w-[80%]">
+        <CompanyCarousel />
+        <ContactForm />
       </div>
       <Footer />
     </main>

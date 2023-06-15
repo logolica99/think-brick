@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Services() {
   return (
-    <div>
+    <div className="my-24">
       <h2 className="text-center text-4xl font-semibold text-[#483B3B] font-montserrat my-12 lg:my-20">
         Our Services
       </h2>
